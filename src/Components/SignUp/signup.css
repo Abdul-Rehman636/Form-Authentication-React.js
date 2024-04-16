@@ -1,0 +1,172 @@
+#div-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(48deg, rgba(0,251,255,1) 0%, rgba(159,81,161,1) 100%);
+}
+
+#Signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    justify-content: center;
+    height: 70vh;
+    width: 25rem;
+    border-radius: 6px;
+}
+
+#name-input{
+    width: 20rem;
+    padding-left: 10px;
+    height: 7vh;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+}
+
+#name-input:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    background-color: transparent;
+}
+
+#name-input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: #000000;
+}
+
+#email-input{
+    width: 20rem;
+    padding-left: 10px;
+    height: 7vh;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+}
+
+#email-input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: #000000;
+}
+
+#email-input:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    background-color: transparent;
+}
+
+#password-input{
+    width: 20rem;
+    padding-left: 10px;
+    height: 7vh;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #000000;
+}
+
+#password-input::placeholder{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: #000000;
+}
+
+#password-input:focus{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid green;
+    outline: none;
+    background-color: transparent;
+}
+
+#Signup-button{
+    width: 10rem;
+    margin-top: 14px;
+    height: 8vh;
+    border: 2px solid green;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: "Poppins";
+    background-color: green;
+    color: #ffffff;
+}
+
+#Signup-button:hover{
+    width: 10rem;
+    margin-top: 14px;
+    height: 8vh;
+    border: 2px solid green;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: "Poppins";
+    background-color: transparent;
+    color: #000000;
+}
+
+#Signup-button:focus{
+    width: 10rem;
+    margin-top: 14px;
+    height: 8vh;
+    border: 2px solid green;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    font-family: "Poppins";
+    background-color: transparent;
+    color: #000000;
+}
+
+#div-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#text-2{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: #000000;
+    margin-top: 24px;
+}
+
+#link-2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #000000;
+    margin-left: 10px;
+}
+
+#link-2:hover{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #000000;
+    margin-left: 10px;
+    text-decoration: none;
+}
