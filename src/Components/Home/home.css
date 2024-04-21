@@ -7,7 +7,25 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(48deg, rgba(0,251,255,1) 0%, rgba(159,81,161,1) 100%);
+}
+
+#Logout-button{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #000000;
+    height: 8vh;
+    width: 10rem;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+
+#Logout-button:hover{
+    background: transparent;
 }

@@ -28,6 +28,10 @@ function SignIn() {
       // User signed in successfully
       const user = userCredential.user;
       console.log("User signed in:", user);
+      //Save the token to local storage
+      localStorage.setItem("Token", user.accessToken);
+      //Save the email to local storage
+      localStorage.setItem("Email", user.auth.email);
       // Navigate to home page upon successful sign-in
       navigateToHome("/Home");
     } catch (error) {

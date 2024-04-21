@@ -10,7 +10,6 @@ function SignUp() {
   const existEmail = useNavigate();
 
   const [isLoading, setIsLoading] = useState(false);
-  const [userCredential, setUserCredential] = useState(null); // State to store user credentials
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -25,15 +24,12 @@ function SignUp() {
         email,
         password
       );
-      setUserCredential(userCredential); // Set userCredential state
       // User created successfully
       const user = userCredential.user;
-      console.log("User created:", user);
       localStorage.setItem("Token", user.accessToken);
-      navigateToSignIn("/Login");
+      navigateToSignIn("/Home");
     } catch (error) {
       // Handle errors here
-      console.error("Error creating user:", error.message);
       // Show confirmation dialog if email already exists
       const confirmExists = window.confirm(
         "Email is already in use. Do you want to create another one?"
